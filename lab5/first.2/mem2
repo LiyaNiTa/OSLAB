@@ -1,0 +1,25 @@
+#!/bin/bash
+if [ -f report2.log ]
+then
+	rm report2.log
+fi
+if [ -f report2.txt ]
+then
+        rm report2.txt
+fi
+
+ind=0;
+while true
+do
+	arr[$ind]=$(($ind % 10 + 1))
+	if [ $(( $ind % 100000)) -eq 0 ]
+	then
+		echo $ind >> report2.log
+	fi
+	ind=$(($ind+1))
+	if [ $(( $ind % 1000000)) -eq 0 ]
+	then
+		./help2
+	fi
+done
+

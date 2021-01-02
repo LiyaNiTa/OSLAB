@@ -1,0 +1,12 @@
+#! /bin/bash
+
+data=$(date +"%F_%R")
+
+testfile="./"$newdir"/"$data 
+
+touch ~/testi && 
+{ 
+echo "catalog test was created successfully" > ~/report
+touch $testfile 
+}
+ping -q -c 1 "www.net_nikogo.ru"  2>&1 >/dev/null | awk -v d="${data}"  '{print d " " $0}' >> ~/report 

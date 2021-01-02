@@ -1,0 +1,18 @@
+#! /bin/bash
+
+dateFiles="$(ls | grep -E "^Backup-" | sort -n | tail -1 | cut -d "-" -f 2,3,4)"
+if [[ ! -d restore ]]
+then
+	mkdir restore
+fi
+cd "Backup-$dateFiles"
+listInBackup="$(ls)"
+for file in $listInBackup
+do
+	filesNotToCopy="$(echo "$file" | grep -v -E "\.[[:digit:]]{4}-[[:digit:]]{2}-[[:digit:]]{2}$")"
+	if [ "$file" = "$filesNotToCopy" ]
+	then
+		cp -R $file ../restore
+	fi
+
+done

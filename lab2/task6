@@ -1,0 +1,22 @@
+#! /bin/bash
+
+mpath='/proc'
+pred_ppid=-1
+ans=0
+ans_pid=0
+for pid in $(ps -A -o pid | tail -n +2)
+do
+        path_statm="$mpath/$pid/statm"
+	if [[ -f $path_statm ]]
+	then
+		mem=$(awk '{print $1}' $path_statm)
+		if [[ "$ans" -lt "$mem" ]]
+		then
+			ans=$mem
+			ans_pid=$pid
+		fi
+	fi
+done
+echo $ans_pid   $ans
+
+

@@ -1,0 +1,16 @@
+#! /bin/bash
+read var
+case "$var" in
+1)
+nano
+;;
+2)
+vi
+;;
+3)
+links
+;;
+4) 
+exit
+;;
+esac

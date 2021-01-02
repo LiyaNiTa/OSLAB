@@ -1,0 +1,4 @@
+[ 8645.584888] Out of memory: Killed process 6150 (mem2) total-vm:1234108kB, anon-rss:1216312kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:2452kB oom_score_adj:0
+[ 8645.939433] oom_reaper: reaped process 6150 (mem2), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB
+[ 8283.006387] Out of memory: Killed process 6149 (mem) total-vm:643276kB, anon-rss:625448kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:1296kB oom_score_adj:0
+[ 8283.044724] oom_reaper: reaped process 6149 (mem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB

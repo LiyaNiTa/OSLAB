@@ -1,0 +1,26 @@
+#! /bin/bash
+
+./task4.1&pid1=$!
+./task4.1&pid2=$!
+./task4.1&pid3=$!
+
+max_cpu=10
+
+renice -n 6 -p $pid1
+
+while [ true ] 
+do
+	sleep 30
+	cpu=$(ps -p $pid1 -o pcpu | tail -n 1)
+	echo $cpu
+	if (( $(echo "$max_cpu < $cpu" |bc -l) ))
+	then
+		new_nice=$(ps -p $pid1 -o ni | tail -n 1)
+		if [[ $new_nice -le 19 ]]
+		then		
+			new_nice=$(($new_nice+1))
+		fi
+		echo $new_nice
+		renice -n $new_nice -p $pid1
+	fi 
+done 

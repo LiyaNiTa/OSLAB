@@ -1,0 +1,36 @@
+#! /bin/bash
+
+mpath='/proc'
+touch buf_old
+for pid in $(ps -A -o pid | tail -n +2)
+do
+        path_io="$mpath/$pid/io"
+	if [[ -f $path_io ]]
+	then
+	mem=$(sudo grep -iw "read_bytes:" $path_io | awk '{print $2}')
+	echo "$pid $mem" >> buf_old
+	fi
+done
+echo "first phase completed"
+echo "wait 1 min"
+sleep 15 
+echo "start the second phase"
+for pid in $(ps -A -o pid | tail -n +2)
+do
+        path_io="$mpath/$pid/io"
+	if [[ -f $path_io ]]
+	then
+        mem=$(sudo grep -iw "read_bytes:" $path_io | awk '{print $2}')
+	mem_old=0
+	if [[ $(sudo grep -iw "$pid" buf_old | wc -l) -ne 0 ]]
+       	then
+	mem_old=$(sudo grep -iw "$pid" buf_old | awk '{print $2}')
+	fi
+	ans="$(bc -l <<< "$mem - $mem_old")"
+	echo "$pid $ans" >> buf
+	fi
+done
+echo "answer"
+sort -nk2 buf | tail -n  3 | awk '{print $1":"$2}'
+rm buf
+rm buf_old

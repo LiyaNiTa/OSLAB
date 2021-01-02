@@ -1,0 +1,10 @@
+#! /bin/bash
+
+awk 'NR % 9  == 2 { print $1 " " $3  " " $5 " " $7}' report.txt > memory1_change
+awk 'NR % 9 == 3 { print $1 " " $3  " " $5 " " $7}' report.txt > swap1_change
+awk 'NR % 10 == 0 { print ($1 * 64 / 1000000 )}' report.log > report1_change
+awk 'NR % 9 == 2 { print $1 " " $3  " " $5 " " $7}' report2.txt > memory2_change
+awk 'NR % 9 == 3 { print $1 " " $3  " " $5 " " $7}' report2.txt > swap2_change
+awk 'NR % 10 == 0 { print ($1 * 64 / 1000000 )}' report2.log > report2_change
+
+

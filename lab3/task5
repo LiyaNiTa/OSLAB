@@ -1,0 +1,45 @@
+#! /bin/bash
+
+mode="+"
+num=1
+
+(tail -f pipe) | 
+while true; do 
+	read line;
+	echo "$line"
+	case $line in
+        "+")
+            mode="+"
+            echo "+"
+            ;;
+        "*")
+            mode="*"
+            echo 'djfk'
+            ;;
+        "QUIT")
+            echo "exit"
+       		killall tail
+
+            exit 0
+            ;;
+        [0-9]*)
+            case $mode in
+                "+")
+                    echo "Sum" $num "and " $line						
+                    num=$(($num + $line))
+                    echo "result " $num
+                    ;;
+                "*")
+                    echo "Mult" $num "and " $line						
+                    num=$(($num * $line))
+                    echo "result " $num
+                    ;;
+            esac
+            ;;
+        *) 
+	    echo "INCORRECT input"	
+	    killall tail
+            exit 1
+            ;;
+    esac
+done

@@ -1,0 +1,5 @@
+#! /bin/bash
+
+dmesg | grep "mem2" | tail -n 2 > dmesg.txt
+dmesg | grep -w  "mem" | tail -n 2 >> dmesg.txt
+

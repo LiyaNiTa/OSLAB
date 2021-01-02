@@ -1,0 +1,579 @@
+945:/lib/systemd/systemd
+946:(sd-pam)
+952:/usr/bin/pulseaudio
+954:/usr/libexec/tracker-miner-fs
+957:/usr/bin/gnome-keyring-daemon
+961:/usr/lib/gdm3/gdm-x-session
+Average_Sleeping_Children_of_ParentID= is
+964:/usr/bin/dbus-daemon
+Average_Sleeping_Children_of_ParentID=3 is
+966:/usr/lib/xorg/Xorg
+970:/usr/libexec/gvfsd
+977:/usr/libexec/gvfsd-fuse
+984:/usr/libexec/gvfs-udisks2-volume-monitor
+Average_Sleeping_Children_of_ParentID= is
+1003:/usr/libexec/gvfs-mtp-volume-monitor
+Average_Sleeping_Children_of_ParentID=2 is
+1007:/usr/libexec/gvfs-gphoto2-volume-monitor
+Average_Sleeping_Children_of_ParentID= is
+1012:/usr/libexec/gvfs-goa-volume-monitor
+Average_Sleeping_Children_of_ParentID=2 is
+1016:/usr/libexec/goa-daemon
+1032:/usr/libexec/goa-identity-service
+1037:/usr/libexec/gvfs-afc-volume-monitor
+1048:/usr/libexec/gnome-session-binary
+1133:/usr/bin/VBoxClient
+1134:/usr/bin/VBoxClient
+1144:/usr/bin/VBoxClient
+1145:/usr/bin/VBoxClient
+1151:/usr/bin/VBoxClient
+1152:/usr/bin/VBoxClient
+1156:/usr/bin/VBoxClient
+1158:/usr/bin/VBoxClient
+1165:/usr/bin/ssh-agent
+1188:/usr/bin/ibus-daemon
+1192:/usr/libexec/ibus-memconf
+1193:/usr/libexec/ibus-ui-gtk3
+Average_Sleeping_Children_of_ParentID= is
+1194:/usr/libexec/ibus-extension-gtk3
+1201:/usr/libexec/ibus-x11
+Average_Sleeping_Children_of_ParentID=3 is
+1204:/usr/libexec/ibus-portal
+Average_Sleeping_Children_of_ParentID=11 is
+1224:/usr/libexec/at-spi-bus-launcher
+1229:/usr/bin/dbus-daemon
+1239:/usr/libexec/at-spi2-registryd
+Average_Sleeping_Children_of_ParentID= is
+1240:/usr/libexec/xdg-desktop-portal
+Average_Sleeping_Children_of_ParentID=2 is
+1251:/usr/libexec/xdg-document-portal
+1254:/usr/libexec/xdg-permission-store
+1263:/usr/libexec/xdg-desktop-portal-gtk
+1272:/usr/libexec/dconf-service
+1281:/usr/libexec/gnome-session-ctl
+1289:/usr/libexec/gnome-session-binary
+1299:/usr/libexec/ibus-engine-simple
+1306:/usr/bin/gnome-shell
+1338:/usr/libexec/gnome-shell-calendar-server
+1344:/usr/libexec/evolution-source-registry
+1354:/usr/libexec/evolution-calendar-factory
+1370:/usr/libexec/evolution-addressbook-factory
+1389:/usr/bin/gjs
+1396:/usr/libexec/gvfsd-trash
+1407:/usr/libexec/gsd-a11y-settings
+Average_Sleeping_Children_of_ParentID= is
+1408:/usr/libexec/gsd-color
+Average_Sleeping_Children_of_ParentID=11 is
+1412:/usr/libexec/gsd-datetime
+1413:/usr/libexec/gsd-housekeeping
+1416:/usr/libexec/gsd-keyboard
+1421:/usr/libexec/gsd-media-keys
+1422:/usr/libexec/gsd-power
+1423:/usr/libexec/gsd-print-notifications
+1426:/usr/libexec/gsd-rfkill
+1427:/usr/libexec/gsd-screensaver-proxy
+1436:/usr/libexec/gsd-sharing
+1438:/usr/libexec/gsd-smartcard
+1441:/usr/libexec/gsd-sound
+1443:/usr/libexec/gsd-usb-protection
+1446:/usr/libexec/gsd-wacom
+1447:/usr/libexec/gsd-wwan
+1451:/usr/libexec/gsd-xsettings
+1463:/usr/libexec/evolution-data-server/evolution-alarm-notify
+1474:/usr/libexec/gsd-disk-utility-notify
+1501:/usr/libexec/gsd-printer
+1670:/usr/libexec/gvfsd-metadata
+1673:update-notifier
+1749:/usr/bin/nautilus
+2399:/usr/libexec/gnome-terminal-server
+2409:bash
+2457:/bin/bash
+3210:sleep
+3243:/bin/bash
+4012:sleep
+10723:/bin/bash
+11564:sleep
+11792:/bin/bash
+11998:sleep
+12005:/bin/bash
+12810:sleep
+15645:/bin/bash
+16447:sleep
+36417:/bin/bash
+37234:sleep
+37346:rm
+46638:/usr/libexec/tracker-store
+46661:/bin/bash
+46662:ps
+46663:tail
+46664:awk
+ProcessID=1 : Parent_ProcessID=0 : Average_Running_Time=.28094986823529411764
+ProcessID=2 : Parent_ProcessID=0 : Average_Running_Time=.06575800000000000000
+ProcessID=3 : Parent_ProcessID=2 : Average_Running_Time=.00195500000000000000
+Average_Sleeping_Children_of_ParentID=0 is
+ProcessID=4 : Parent_ProcessID=2 : Average_Running_Time=.00098850000000000000
+ProcessID=6 : Parent_ProcessID=2 : Average_Running_Time=.00347342857142857142
+ProcessID=9 : Parent_ProcessID=2 : Average_Running_Time=.00108850000000000000
+ProcessID=10 : Parent_ProcessID=2 : Average_Running_Time=.04107198359343737494
+ProcessID=11 : Parent_ProcessID=2 : Average_Running_Time=.02738258967571144937
+ProcessID=12 : Parent_ProcessID=2 : Average_Running_Time=.05471818696397941680
+ProcessID=13 : Parent_ProcessID=2 : Average_Running_Time=.00305866666666666666
+ProcessID=14 : Parent_ProcessID=2 : Average_Running_Time=.01421600000000000000
+ProcessID=15 : Parent_ProcessID=2 : Average_Running_Time=.01935466666666666666
+ProcessID=16 : Parent_ProcessID=2 : Average_Running_Time=.00069366666666666666
+ProcessID=17 : Parent_ProcessID=2 : Average_Running_Time=.51117338554216867469
+ProcessID=18 : Parent_ProcessID=2 : Average_Running_Time=.04114152177355502771
+ProcessID=20 : Parent_ProcessID=2 : Average_Running_Time=.00846175000000000000
+ProcessID=21 : Parent_ProcessID=2 : Average_Running_Time=.02604815897435897435
+ProcessID=22 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=23 : Parent_ProcessID=2 : Average_Running_Time=.00245400000000000000
+ProcessID=24 : Parent_ProcessID=2 : Average_Running_Time=.01936623529411764705
+ProcessID=25 : Parent_ProcessID=2 : Average_Running_Time=.11700660000000000000
+ProcessID=26 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=27 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=28 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=29 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=30 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=77 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=78 : Parent_ProcessID=2 : Average_Running_Time=.00199600000000000000
+ProcessID=79 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=80 : Parent_ProcessID=2 : Average_Running_Time=.00347550000000000000
+ProcessID=81 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=82 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=83 : Parent_ProcessID=2 : Average_Running_Time=.00865800000000000000
+ProcessID=84 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=85 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=88 : Parent_ProcessID=2 : Average_Running_Time=.01132533333333333333
+ProcessID=89 : Parent_ProcessID=2 : Average_Running_Time=.03441700000000000000
+ProcessID=91 : Parent_ProcessID=2 : Average_Running_Time=.00397000000000000000
+ProcessID=92 : Parent_ProcessID=2 : Average_Running_Time=.00511450000000000000
+ProcessID=93 : Parent_ProcessID=2 : Average_Running_Time=3.72534475000000000000
+ProcessID=94 : Parent_ProcessID=2 : Average_Running_Time=.00201150000000000000
+ProcessID=95 : Parent_ProcessID=2 : Average_Running_Time=.14211520833333333333
+ProcessID=96 : Parent_ProcessID=2 : Average_Running_Time=.00408350000000000000
+ProcessID=98 : Parent_ProcessID=2 : Average_Running_Time=.02806200000000000000
+ProcessID=100 : Parent_ProcessID=2 : Average_Running_Time=.01733750000000000000
+ProcessID=109 : Parent_ProcessID=2 : Average_Running_Time=.06526300000000000000
+ProcessID=112 : Parent_ProcessID=2 : Average_Running_Time=.04449300000000000000
+ProcessID=125 : Parent_ProcessID=2 : Average_Running_Time=.06726750000000000000
+ProcessID=126 : Parent_ProcessID=2 : Average_Running_Time=.10619693538135593220
+ProcessID=168 : Parent_ProcessID=2 : Average_Running_Time=.02492489655172413793
+ProcessID=170 : Parent_ProcessID=2 : Average_Running_Time=.00491100000000000000
+ProcessID=171 : Parent_ProcessID=2 : Average_Running_Time=.04461657738141000999
+ProcessID=173 : Parent_ProcessID=2 : Average_Running_Time=.05541118697895990472
+ProcessID=193 : Parent_ProcessID=2 : Average_Running_Time=.10989973174157303370
+ProcessID=194 : Parent_ProcessID=2 : Average_Running_Time=.06108600000000000000
+ProcessID=233 : Parent_ProcessID=1 : Average_Running_Time=.36979368787515006002
+Average_Sleeping_Children_of_ParentID=2 is 96260917372209046967 2835894879940295003.52
+ProcessID=263 : Parent_ProcessID=1 : Average_Running_Time=.36123599522760646108
+ProcessID=264 : Parent_ProcessID=2 : Average_Running_Time=.05569364110218140068
+Average_Sleeping_Children_of_ParentID=1 is 36551484155137826055.00
+ProcessID=265 : Parent_ProcessID=2 : Average_Running_Time=.02420400000000000000
+ProcessID=274 : Parent_ProcessID=2 : Average_Running_Time=.06124622727272727272
+ProcessID=288 : Parent_ProcessID=2 : Average_Running_Time=.08389936363636363636
+ProcessID=294 : Parent_ProcessID=2 : Average_Running_Time=.04573050000000000000
+ProcessID=298 : Parent_ProcessID=2 : Average_Running_Time=.08484284810126582278
+ProcessID=300 : Parent_ProcessID=2 : Average_Running_Time=.02831574285714285714
+ProcessID=303 : Parent_ProcessID=2 : Average_Running_Time=.02263216455696202531
+ProcessID=304 : Parent_ProcessID=2 : Average_Running_Time=.08603929747675962815
+ProcessID=305 : Parent_ProcessID=2 : Average_Running_Time=.05578055714285714285
+ProcessID=307 : Parent_ProcessID=2 : Average_Running_Time=.00444900000000000000
+ProcessID=328 : Parent_ProcessID=2 : Average_Running_Time=.00540550000000000000
+ProcessID=487 : Parent_ProcessID=1 : Average_Running_Time=.61859502678571428571
+Average_Sleeping_Children_of_ParentID=2 is 4651990351218831549.91
+ProcessID=489 : Parent_ProcessID=1 : Average_Running_Time=1.07829906870229007633
+ProcessID=512 : Parent_ProcessID=1 : Average_Running_Time=.16040878061224489795
+ProcessID=513 : Parent_ProcessID=1 : Average_Running_Time=.11139421878025169409
+ProcessID=516 : Parent_ProcessID=1 : Average_Running_Time=.17918703409090909090
+ProcessID=517 : Parent_ProcessID=1 : Average_Running_Time=.19809725581395348837
+ProcessID=519 : Parent_ProcessID=1 : Average_Running_Time=.28925840000000000000
+ProcessID=522 : Parent_ProcessID=1 : Average_Running_Time=.37819090482664853840
+ProcessID=523 : Parent_ProcessID=1 : Average_Running_Time=.20437739634464751958
+ProcessID=536 : Parent_ProcessID=1 : Average_Running_Time=.73316640500000000000
+ProcessID=539 : Parent_ProcessID=1 : Average_Running_Time=.45725004962779156327
+ProcessID=541 : Parent_ProcessID=1 : Average_Running_Time=.23047506741573033707
+ProcessID=548 : Parent_ProcessID=1 : Average_Running_Time=.35051252941176470588
+ProcessID=549 : Parent_ProcessID=1 : Average_Running_Time=.78587946740638002773
+ProcessID=551 : Parent_ProcessID=1 : Average_Running_Time=.85429668181818181818
+ProcessID=554 : Parent_ProcessID=1 : Average_Running_Time=.11124774973821989528
+ProcessID=558 : Parent_ProcessID=1 : Average_Running_Time=.40128715873015873015
+ProcessID=560 : Parent_ProcessID=1 : Average_Running_Time=.15167139108910891089
+ProcessID=575 : Parent_ProcessID=516 : Average_Running_Time=.06975066666666666666
+Average_Sleeping_Children_of_ParentID=1 is 61859502678571428572 31527775330046007189.27
+ProcessID=596 : Parent_ProcessID=1 : Average_Running_Time=.22663494505494505494
+Average_Sleeping_Children_of_ParentID=516 is 6975066666666666666.00
+ProcessID=614 : Parent_ProcessID=1 : Average_Running_Time=.48972934682080924855
+ProcessID=633 : Parent_ProcessID=1 : Average_Running_Time=.79330872340425531914
+ProcessID=649 : Parent_ProcessID=1 : Average_Running_Time=.27260688343558282208
+ProcessID=650 : Parent_ProcessID=1 : Average_Running_Time=1.50753180555555555555
+ProcessID=687 : Parent_ProcessID=1 : Average_Running_Time=1.87205684210526315789
+ProcessID=882 : Parent_ProcessID=1 : Average_Running_Time=.20922885185185185185
+ProcessID=888 : Parent_ProcessID=1 : Average_Running_Time=.05687826315789473684
+ProcessID=901 : Parent_ProcessID=882 : Average_Running_Time=.19447687692307692307
+Average_Sleeping_Children_of_ParentID=1 is 178227989871559244472 50753180555555555556 14227049463937621832.25
+ProcessID=906 : Parent_ProcessID=1 : Average_Running_Time=.61405913428827215756
+Average_Sleeping_Children_of_ParentID=882 is 19447687692307692307.00
+ProcessID=907 : Parent_ProcessID=906 : Average_Running_Time=.22364300000000000000
+Average_Sleeping_Children_of_ParentID=1 is 61405913428827215756.00
+ProcessID=913 : Parent_ProcessID=906 : Average_Running_Time=.43285093824485373781
+ProcessID=915 : Parent_ProcessID=906 : Average_Running_Time=1.08899026739130434782
+ProcessID=920 : Parent_ProcessID=1 : Average_Running_Time=.02459103155818540433
+Average_Sleeping_Children_of_ParentID=906 is 65649393824485373782 2966342246376811594.00
+ProcessID=922 : Parent_ProcessID=906 : Average_Running_Time=.10718204209555999385
+Average_Sleeping_Children_of_ParentID=1 is 2459103155818540433.00
+ProcessID=925 : Parent_ProcessID=901 : Average_Running_Time=.30418972093023255813
+Average_Sleeping_Children_of_ParentID=906 is 10718204209555999385.00
+ProcessID=927 : Parent_ProcessID=925 : Average_Running_Time=.34754979631422044988
+Average_Sleeping_Children_of_ParentID=901 is 30418972093023255813.00
+ProcessID=930 : Parent_ProcessID=906 : Average_Running_Time=.10850386009538950715
+Average_Sleeping_Children_of_ParentID=925 is 34754979631422044988.00
+ProcessID=935 : Parent_ProcessID=906 : Average_Running_Time=.36169822222222222222
+ProcessID=943 : Parent_ProcessID=906 : Average_Running_Time=.42179104494382022471
+ProcessID=946 : Parent_ProcessID=1 : Average_Running_Time=.22531991176470588235
+Average_Sleeping_Children_of_ParentID=906 is 29733104242047731802.66
+ProcessID=962 : Parent_ProcessID=906 : Average_Running_Time=.33928508333333333333
+Average_Sleeping_Children_of_ParentID=1 is 22531991176470588235.00
+ProcessID=966 : Parent_ProcessID=906 : Average_Running_Time=.23317666666666666666
+ProcessID=970 : Parent_ProcessID=906 : Average_Running_Time=.44350272222222222222
+ProcessID=974 : Parent_ProcessID=906 : Average_Running_Time=.54214108256880733944
+ProcessID=991 : Parent_ProcessID=906 : Average_Running_Time=.24256220754716981132
+ProcessID=998 : Parent_ProcessID=906 : Average_Running_Time=.33526248484848484848
+ProcessID=1003 : Parent_ProcessID=1 : Average_Running_Time=.68278190819672131147
+Average_Sleeping_Children_of_ParentID=906 is 35598837453111403690.83
+ProcessID=1013 : Parent_ProcessID=925 : Average_Running_Time=.37213331851851851851
+Average_Sleeping_Children_of_ParentID=1 is 68278190819672131147.00
+ProcessID=1100 : Parent_ProcessID=1 : Average_Running_Time=.61219400000000000000
+Average_Sleeping_Children_of_ParentID=925 is 37213331851851851851.00
+ProcessID=1101 : Parent_ProcessID=1100 : Average_Running_Time=.19142430434782608695
+Average_Sleeping_Children_of_ParentID=1 is 61219400000000000000.00
+ProcessID=1109 : Parent_ProcessID=1 : Average_Running_Time=.64071500000000000000
+Average_Sleeping_Children_of_ParentID=1100 is 19142430434782608695.00
+ProcessID=1110 : Parent_ProcessID=1109 : Average_Running_Time=.15379740000000000000
+Average_Sleeping_Children_of_ParentID=1 is 64071500000000000000.00
+ProcessID=1118 : Parent_ProcessID=1 : Average_Running_Time=.31514000000000000000
+Average_Sleeping_Children_of_ParentID=1109 is 15379740000000000000.00
+ProcessID=1120 : Parent_ProcessID=1118 : Average_Running_Time=.08477058695652173913
+Average_Sleeping_Children_of_ParentID=1 is 31514000000000000000.00
+ProcessID=1123 : Parent_ProcessID=1 : Average_Running_Time=.44408200000000000000
+Average_Sleeping_Children_of_ParentID=1118 is 8477058695652173913.00
+ProcessID=1124 : Parent_ProcessID=1123 : Average_Running_Time=.16686754054054054054
+Average_Sleeping_Children_of_ParentID=1 is 44408200000000000000.00
+ProcessID=1131 : Parent_ProcessID=1013 : Average_Running_Time=.09424723170731707317
+Average_Sleeping_Children_of_ParentID=1123 is 16686754054054054054.00
+ProcessID=1148 : Parent_ProcessID=1 : Average_Running_Time=.06260527551116852021
+Average_Sleeping_Children_of_ParentID=1013 is 9424723170731707317.00
+ProcessID=1152 : Parent_ProcessID=1148 : Average_Running_Time=.41521057575757575757
+Average_Sleeping_Children_of_ParentID=1 is 6260527551116852021.00
+ProcessID=1153 : Parent_ProcessID=1148 : Average_Running_Time=.53439834462616822429
+ProcessID=1158 : Parent_ProcessID=1148 : Average_Running_Time=.89800621319628647214
+ProcessID=1161 : Parent_ProcessID=1 : Average_Running_Time=.62056395494699646643
+Average_Sleeping_Children_of_ParentID=1148 is 61587171119334348466.66
+ProcessID=1163 : Parent_ProcessID=906 : Average_Running_Time=.09564773636363636363
+Average_Sleeping_Children_of_ParentID=1 is 62056395494699646643.00
+ProcessID=1176 : Parent_ProcessID=906 : Average_Running_Time=1.01138811428571428571
+ProcessID=1185 : Parent_ProcessID=1176 : Average_Running_Time=.13450530242825607064
+Average_Sleeping_Children_of_ParentID=906 is 9564773636363636364 569405714285714285.50
+ProcessID=1194 : Parent_ProcessID=906 : Average_Running_Time=.14971859096313912009
+Average_Sleeping_Children_of_ParentID=1176 is 13450530242825607064.00
+ProcessID=1206 : Parent_ProcessID=906 : Average_Running_Time=.07681201015801354401
+ProcessID=1211 : Parent_ProcessID=906 : Average_Running_Time=.03143747492625368731
+ProcessID=1214 : Parent_ProcessID=906 : Average_Running_Time=.19010236842105263157
+ProcessID=1223 : Parent_ProcessID=906 : Average_Running_Time=.45833980769230769230
+ProcessID=1235 : Parent_ProcessID=906 : Average_Running_Time=.23635024137931034482
+ProcessID=1241 : Parent_ProcessID=906 : Average_Running_Time=.48900250000000000000
+ProcessID=1246 : Parent_ProcessID=906 : Average_Running_Time=.23547265418502202643
+ProcessID=1276 : Parent_ProcessID=906 : Average_Running_Time=.56006403755211047420
+ProcessID=1287 : Parent_ProcessID=1148 : Average_Running_Time=.12262557051282051282
+Average_Sleeping_Children_of_ParentID=906 is 26969996503080105785.88
+ProcessID=1312 : Parent_ProcessID=906 : Average_Running_Time=.29528664066852367688
+Average_Sleeping_Children_of_ParentID=1148 is 12262557051282051282.00
+ProcessID=1318 : Parent_ProcessID=906 : Average_Running_Time=.69355399224806201550
+ProcessID=1328 : Parent_ProcessID=906 : Average_Running_Time=.34256570467836257309
+ProcessID=1344 : Parent_ProcessID=906 : Average_Running_Time=.26121056914893617021
+ProcessID=1361 : Parent_ProcessID=906 : Average_Running_Time=.77285919121875691218
+ProcessID=1363 : Parent_ProcessID=906 : Average_Running_Time=.40365033928571428571
+ProcessID=1369 : Parent_ProcessID=930 : Average_Running_Time=.12839131851851851851
+Average_Sleeping_Children_of_ParentID=906 is 46152107287472593892.83
+ProcessID=1380 : Parent_ProcessID=906 : Average_Running_Time=.33422391111111111111
+Average_Sleeping_Children_of_ParentID=930 is 12839131851851851851.00
+ProcessID=1381 : Parent_ProcessID=906 : Average_Running_Time=.62956136177474402730
+ProcessID=1382 : Parent_ProcessID=906 : Average_Running_Time=.37856327272727272727
+ProcessID=1386 : Parent_ProcessID=906 : Average_Running_Time=1.09616979508196721311
+ProcessID=1387 : Parent_ProcessID=906 : Average_Running_Time=.82636111162790697674
+ProcessID=1390 : Parent_ProcessID=906 : Average_Running_Time=.56112812075848303393
+ProcessID=1392 : Parent_ProcessID=906 : Average_Running_Time=.82004464318529862174
+ProcessID=1393 : Parent_ProcessID=906 : Average_Running_Time=.25327445161290322580
+ProcessID=1395 : Parent_ProcessID=906 : Average_Running_Time=.06559333898305084745
+ProcessID=1399 : Parent_ProcessID=906 : Average_Running_Time=.23455382758620689655
+ProcessID=1403 : Parent_ProcessID=906 : Average_Running_Time=.15858099305555555555
+ProcessID=1409 : Parent_ProcessID=906 : Average_Running_Time=.21819756122448979591
+ProcessID=1411 : Parent_ProcessID=906 : Average_Running_Time=.20473050549450549450
+ProcessID=1414 : Parent_ProcessID=906 : Average_Running_Time=.45851622727272727272
+ProcessID=1415 : Parent_ProcessID=906 : Average_Running_Time=.94330975352112676056
+ProcessID=1419 : Parent_ProcessID=906 : Average_Running_Time=.21895642622950819672
+ProcessID=1422 : Parent_ProcessID=1246 : Average_Running_Time=.67422455314285714285
+Average_Sleeping_Children_of_ParentID=906 is 134234854561312786569 31621354722710811820.50
+ProcessID=1441 : Parent_ProcessID=906 : Average_Running_Time=.91519753678929765886
+Average_Sleeping_Children_of_ParentID=1246 is 67422455314285714285.00
+ProcessID=1450 : Parent_ProcessID=1246 : Average_Running_Time=.26872105263157894736
+Average_Sleeping_Children_of_ParentID=906 is 91519753678929765886.00
+ProcessID=1456 : Parent_ProcessID=906 : Average_Running_Time=.44271616071428571428
+Average_Sleeping_Children_of_ParentID=1246 is 26872105263157894736.00
+ProcessID=1509 : Parent_ProcessID=1 : Average_Running_Time=.31797075796178343949
+Average_Sleeping_Children_of_ParentID=906 is 44271616071428571428.00
+ProcessID=1640 : Parent_ProcessID=906 : Average_Running_Time=.50504372457349081364
+Average_Sleeping_Children_of_ParentID=1 is 31797075796178343949.00
+ProcessID=1666 : Parent_ProcessID=1640 : Average_Running_Time=.43669659668508287292
+Average_Sleeping_Children_of_ParentID=906 is 50504372457349081364.00
+ProcessID=1710 : Parent_ProcessID=906 : Average_Running_Time=1.15450055555555555555
+Average_Sleeping_Children_of_ParentID=1640 is 43669659668508287292.00
+ProcessID=1723 : Parent_ProcessID=1246 : Average_Running_Time=1.07759335770750988142
+Average_Sleeping_Children_of_ParentID=906 is 1 15450055555555555555.00
+ProcessID=1888 : Parent_ProcessID=2 : Average_Running_Time=.07681222754168908015
+Average_Sleeping_Children_of_ParentID=1246 is 1 7759335770750988142.00
+ProcessID=1902 : Parent_ProcessID=2 : Average_Running_Time=.12995331411330874958
+ProcessID=1907 : Parent_ProcessID=2 : Average_Running_Time=.04115322174840085287
+ProcessID=1945 : Parent_ProcessID=2 : Average_Running_Time=.05227853467153284671
+ProcessID=2055 : Parent_ProcessID=2 : Average_Running_Time=.01122000000000000000
+ProcessID=2104 : Parent_ProcessID=2 : Average_Running_Time=.04153556061620897521
+ProcessID=2208 : Parent_ProcessID=2 : Average_Running_Time=.03060314003944773175
+ProcessID=2219 : Parent_ProcessID=2 : Average_Running_Time=.01483250000000000000
+ProcessID=2229 : Parent_ProcessID=906 : Average_Running_Time=5.09108163636363636363
+Average_Sleeping_Children_of_ParentID=2 is 4979856234132352953.37
+ProcessID=2238 : Parent_ProcessID=1666 : Average_Running_Time=.08058448702290076335
+Average_Sleeping_Children_of_ParentID=906 is 5 9108163636363636363.00
+ProcessID=1 : Parent_ProcessID=0 : Average_Running_Time=.22650304979523454951
+Average_Sleeping_Children_of_ParentID=1666 is 8058448702290076335.00
+ProcessID=2 : Parent_ProcessID=0 : Average_Running_Time=.06596358285714285714
+ProcessID=3 : Parent_ProcessID=2 : Average_Running_Time=.00195500000000000000
+Average_Sleeping_Children_of_ParentID=0 is 14623331632618870332.50
+ProcessID=4 : Parent_ProcessID=2 : Average_Running_Time=.00098850000000000000
+ProcessID=6 : Parent_ProcessID=2 : Average_Running_Time=.00347342857142857142
+ProcessID=9 : Parent_ProcessID=2 : Average_Running_Time=.00108850000000000000
+ProcessID=10 : Parent_ProcessID=2 : Average_Running_Time=.03910257782038990092
+ProcessID=11 : Parent_ProcessID=2 : Average_Running_Time=.02686628282344489013
+ProcessID=12 : Parent_ProcessID=2 : Average_Running_Time=.05174752704031465093
+ProcessID=13 : Parent_ProcessID=2 : Average_Running_Time=.00305866666666666666
+ProcessID=14 : Parent_ProcessID=2 : Average_Running_Time=.01421600000000000000
+ProcessID=15 : Parent_ProcessID=2 : Average_Running_Time=.01935466666666666666
+ProcessID=16 : Parent_ProcessID=2 : Average_Running_Time=.00069366666666666666
+ProcessID=17 : Parent_ProcessID=2 : Average_Running_Time=.31040339569049951028
+ProcessID=18 : Parent_ProcessID=2 : Average_Running_Time=.03982475522493800921
+ProcessID=20 : Parent_ProcessID=2 : Average_Running_Time=.00846175000000000000
+ProcessID=21 : Parent_ProcessID=2 : Average_Running_Time=.02604815897435897435
+ProcessID=22 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=23 : Parent_ProcessID=2 : Average_Running_Time=.00245400000000000000
+ProcessID=24 : Parent_ProcessID=2 : Average_Running_Time=.01936623529411764705
+ProcessID=25 : Parent_ProcessID=2 : Average_Running_Time=.12679788461538461538
+ProcessID=26 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=27 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=28 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=29 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=30 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=77 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=78 : Parent_ProcessID=2 : Average_Running_Time=.00199600000000000000
+ProcessID=79 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=80 : Parent_ProcessID=2 : Average_Running_Time=.00347550000000000000
+ProcessID=81 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=82 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=83 : Parent_ProcessID=2 : Average_Running_Time=.00865800000000000000
+ProcessID=84 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=85 : Parent_ProcessID=2 : Average_Running_Time=0
+ProcessID=88 : Parent_ProcessID=2 : Average_Running_Time=.01132533333333333333
+ProcessID=89 : Parent_ProcessID=2 : Average_Running_Time=.03441700000000000000
+ProcessID=91 : Parent_ProcessID=2 : Average_Running_Time=.00397000000000000000
+ProcessID=92 : Parent_ProcessID=2 : Average_Running_Time=.00511450000000000000
+ProcessID=93 : Parent_ProcessID=2 : Average_Running_Time=3.72534475000000000000
+ProcessID=94 : Parent_ProcessID=2 : Average_Running_Time=.00201150000000000000
+ProcessID=95 : Parent_ProcessID=2 : Average_Running_Time=.14211520833333333333
+ProcessID=96 : Parent_ProcessID=2 : Average_Running_Time=.00408350000000000000
+ProcessID=98 : Parent_ProcessID=2 : Average_Running_Time=.02806200000000000000
+ProcessID=100 : Parent_ProcessID=2 : Average_Running_Time=.01733750000000000000
+ProcessID=109 : Parent_ProcessID=2 : Average_Running_Time=.06526300000000000000
+ProcessID=112 : Parent_ProcessID=2 : Average_Running_Time=.04449300000000000000
+ProcessID=125 : Parent_ProcessID=2 : Average_Running_Time=.06726750000000000000
+ProcessID=126 : Parent_ProcessID=2 : Average_Running_Time=.10381230684538056486
+ProcessID=168 : Parent_ProcessID=2 : Average_Running_Time=.02492489655172413793
+ProcessID=170 : Parent_ProcessID=2 : Average_Running_Time=.00491100000000000000
+ProcessID=173 : Parent_ProcessID=2 : Average_Running_Time=.06197076844694307800
+ProcessID=193 : Parent_ProcessID=2 : Average_Running_Time=.10276436858006042296
+ProcessID=194 : Parent_ProcessID=2 : Average_Running_Time=.06108600000000000000
+ProcessID=233 : Parent_ProcessID=1 : Average_Running_Time=.38010198681948424068
+Average_Sleeping_Children_of_ParentID=2 is 76485732938821010301 2798937112995079879.00
+ProcessID=263 : Parent_ProcessID=1 : Average_Running_Time=.36484246584471842719
+ProcessID=264 : Parent_ProcessID=2 : Average_Running_Time=.05166218241654913023
+Average_Sleeping_Children_of_ParentID=1 is 37247222633210133393.50
+ProcessID=265 : Parent_ProcessID=2 : Average_Running_Time=.02420400000000000000
+ProcessID=274 : Parent_ProcessID=2 : Average_Running_Time=.06124622727272727272
+ProcessID=288 : Parent_ProcessID=2 : Average_Running_Time=.08389936363636363636
+ProcessID=294 : Parent_ProcessID=2 : Average_Running_Time=.04573050000000000000
+ProcessID=298 : Parent_ProcessID=2 : Average_Running_Time=.08484284810126582278
+ProcessID=300 : Parent_ProcessID=2 : Average_Running_Time=.02831574285714285714
+ProcessID=303 : Parent_ProcessID=2 : Average_Running_Time=.02263216455696202531
+ProcessID=304 : Parent_ProcessID=2 : Average_Running_Time=.08603929747675962815
+ProcessID=305 : Parent_ProcessID=2 : Average_Running_Time=.05578055714285714285
+ProcessID=307 : Parent_ProcessID=2 : Average_Running_Time=.00444900000000000000
+ProcessID=328 : Parent_ProcessID=2 : Average_Running_Time=.00540550000000000000
+ProcessID=487 : Parent_ProcessID=1 : Average_Running_Time=.59120892636579572446
+Average_Sleeping_Children_of_ParentID=2 is 4618394862171895962.83
+ProcessID=489 : Parent_ProcessID=1 : Average_Running_Time=1.01194720547945205479
+ProcessID=512 : Parent_ProcessID=1 : Average_Running_Time=.16120185427135678391
+ProcessID=513 : Parent_ProcessID=1 : Average_Running_Time=.09611569744245524296
+ProcessID=516 : Parent_ProcessID=1 : Average_Running_Time=.18089548533333333333
+ProcessID=517 : Parent_ProcessID=1 : Average_Running_Time=.19690938461538461538
+ProcessID=519 : Parent_ProcessID=1 : Average_Running_Time=.28925840000000000000
+ProcessID=522 : Parent_ProcessID=1 : Average_Running_Time=.44090724847982310668
+ProcessID=523 : Parent_ProcessID=1 : Average_Running_Time=.20961209193095142513
+ProcessID=536 : Parent_ProcessID=1 : Average_Running_Time=.74213985714285714285
+ProcessID=539 : Parent_ProcessID=1 : Average_Running_Time=.45725004962779156327
+ProcessID=541 : Parent_ProcessID=1 : Average_Running_Time=.23098182924226254002
+ProcessID=548 : Parent_ProcessID=1 : Average_Running_Time=.33785336111111111111
+ProcessID=549 : Parent_ProcessID=1 : Average_Running_Time=.78587946740638002773
+ProcessID=551 : Parent_ProcessID=1 : Average_Running_Time=.85429668181818181818
+ProcessID=554 : Parent_ProcessID=1 : Average_Running_Time=.07890330096274591879
+ProcessID=558 : Parent_ProcessID=1 : Average_Running_Time=.39211000512820512820
+ProcessID=560 : Parent_ProcessID=1 : Average_Running_Time=.13217061976047904191
+ProcessID=575 : Parent_ProcessID=516 : Average_Running_Time=.06975066666666666666
+Average_Sleeping_Children_of_ParentID=1 is 59120892636579572447 31102402998626504745.77
+ProcessID=596 : Parent_ProcessID=1 : Average_Running_Time=.21527321269841269841
+Average_Sleeping_Children_of_ParentID=516 is 6975066666666666666.00
+ProcessID=614 : Parent_ProcessID=1 : Average_Running_Time=.48972934682080924855
+ProcessID=633 : Parent_ProcessID=1 : Average_Running_Time=.79330872340425531914
+ProcessID=649 : Parent_ProcessID=1 : Average_Running_Time=.28263086341463414634
+ProcessID=650 : Parent_ProcessID=1 : Average_Running_Time=1.67605882758620689655
+ProcessID=687 : Parent_ProcessID=1 : Average_Running_Time=1.86824851666666666666
+ProcessID=882 : Parent_ProcessID=1 : Average_Running_Time=.20488063793103448275
+ProcessID=888 : Parent_ProcessID=1 : Average_Running_Time=.05687826315789473684
+ProcessID=901 : Parent_ProcessID=882 : Average_Running_Time=.20262212820512820512
+Average_Sleeping_Children_of_ParentID=1 is 178094214633811141245 67605882758620689656 14125092721944948578.12
+ProcessID=906 : Parent_ProcessID=1 : Average_Running_Time=.55123591190640055058
+Average_Sleeping_Children_of_ParentID=882 is 20262212820512820512.00
+ProcessID=907 : Parent_ProcessID=906 : Average_Running_Time=.22364300000000000000
+Average_Sleeping_Children_of_ParentID=1 is 55123591190640055058.00
+ProcessID=913 : Parent_ProcessID=906 : Average_Running_Time=.39071930053667262969
+ProcessID=915 : Parent_ProcessID=906 : Average_Running_Time=1.11131371518987341772
+ProcessID=920 : Parent_ProcessID=1 : Average_Running_Time=.02435227860262008733
+Average_Sleeping_Children_of_ParentID=906 is 61436230053667262970 3710457172995780590.66
+ProcessID=922 : Parent_ProcessID=906 : Average_Running_Time=.10189305950743842980
+Average_Sleeping_Children_of_ParentID=1 is 2435227860262008733.00
+ProcessID=925 : Parent_ProcessID=901 : Average_Running_Time=.30418972093023255813
+Average_Sleeping_Children_of_ParentID=906 is 10189305950743842980.00
+ProcessID=927 : Parent_ProcessID=925 : Average_Running_Time=.36482779925413977878
+Average_Sleeping_Children_of_ParentID=901 is 30418972093023255813.00
+ProcessID=930 : Parent_ProcessID=906 : Average_Running_Time=.10836290923317683881
+Average_Sleeping_Children_of_ParentID=925 is 36482779925413977878.00
+ProcessID=935 : Parent_ProcessID=906 : Average_Running_Time=.36169822222222222222
+ProcessID=943 : Parent_ProcessID=906 : Average_Running_Time=.42179104494382022471
+ProcessID=946 : Parent_ProcessID=1 : Average_Running_Time=.22531991176470588235
+Average_Sleeping_Children_of_ParentID=906 is 29728405879973976191.33
+ProcessID=962 : Parent_ProcessID=906 : Average_Running_Time=.33928508333333333333
+Average_Sleeping_Children_of_ParentID=1 is 22531991176470588235.00
+ProcessID=966 : Parent_ProcessID=906 : Average_Running_Time=.23317666666666666666
+ProcessID=970 : Parent_ProcessID=906 : Average_Running_Time=.44350272222222222222
+ProcessID=974 : Parent_ProcessID=906 : Average_Running_Time=.51245185595567867036
+ProcessID=991 : Parent_ProcessID=906 : Average_Running_Time=.24256220754716981132
+ProcessID=998 : Parent_ProcessID=906 : Average_Running_Time=.33526248484848484848
+ProcessID=1003 : Parent_ProcessID=1 : Average_Running_Time=.67691092250000000000
+Average_Sleeping_Children_of_ParentID=906 is 35104017009559259206.16
+ProcessID=1013 : Parent_ProcessID=925 : Average_Running_Time=.37213331851851851851
+Average_Sleeping_Children_of_ParentID=1 is 67691092250000000000.00
+ProcessID=1100 : Parent_ProcessID=1 : Average_Running_Time=.61219400000000000000
+Average_Sleeping_Children_of_ParentID=925 is 37213331851851851851.00
+ProcessID=1101 : Parent_ProcessID=1100 : Average_Running_Time=.19671088135593220338
+Average_Sleeping_Children_of_ParentID=1 is 61219400000000000000.00
+ProcessID=1109 : Parent_ProcessID=1 : Average_Running_Time=.64071500000000000000
+Average_Sleeping_Children_of_ParentID=1100 is 19671088135593220338.00
+ProcessID=1110 : Parent_ProcessID=1109 : Average_Running_Time=.15379740000000000000
+Average_Sleeping_Children_of_ParentID=1 is 64071500000000000000.00
+ProcessID=1118 : Parent_ProcessID=1 : Average_Running_Time=.31514000000000000000
+Average_Sleeping_Children_of_ParentID=1109 is 15379740000000000000.00
+ProcessID=1120 : Parent_ProcessID=1118 : Average_Running_Time=.08477058695652173913
+Average_Sleeping_Children_of_ParentID=1 is 31514000000000000000.00
+ProcessID=1123 : Parent_ProcessID=1 : Average_Running_Time=.44408200000000000000
+Average_Sleeping_Children_of_ParentID=1118 is 8477058695652173913.00
+ProcessID=1124 : Parent_ProcessID=1123 : Average_Running_Time=.16686754054054054054
+Average_Sleeping_Children_of_ParentID=1 is 44408200000000000000.00
+ProcessID=1131 : Parent_ProcessID=1013 : Average_Running_Time=.09464159797297297297
+Average_Sleeping_Children_of_ParentID=1123 is 16686754054054054054.00
+ProcessID=1148 : Parent_ProcessID=1 : Average_Running_Time=.05209768044292178036
+Average_Sleeping_Children_of_ParentID=1013 is 9464159797297297297.00
+ProcessID=1152 : Parent_ProcessID=1148 : Average_Running_Time=.41521057575757575757
+Average_Sleeping_Children_of_ParentID=1 is 5209768044292178036.00
+ProcessID=1153 : Parent_ProcessID=1148 : Average_Running_Time=.52838845459770114942
+ProcessID=1158 : Parent_ProcessID=1148 : Average_Running_Time=.63656285788522367826
+ProcessID=1161 : Parent_ProcessID=1 : Average_Running_Time=.61027671416234887737
+Average_Sleeping_Children_of_ParentID=1148 is 52672062941350019508.33
+ProcessID=1163 : Parent_ProcessID=906 : Average_Running_Time=.09318540285714285714
+Average_Sleeping_Children_of_ParentID=1 is 61027671416234887737.00
+ProcessID=1176 : Parent_ProcessID=906 : Average_Running_Time=1.01138811428571428571
+ProcessID=1185 : Parent_ProcessID=1176 : Average_Running_Time=.13827840384615384615
+Average_Sleeping_Children_of_ParentID=906 is 9318540285714285715 569405714285714285.50
+ProcessID=1194 : Parent_ProcessID=906 : Average_Running_Time=.15363766448801742919
+Average_Sleeping_Children_of_ParentID=1176 is 13827840384615384615.00
+ProcessID=1206 : Parent_ProcessID=906 : Average_Running_Time=.07807649801587301587
+ProcessID=1211 : Parent_ProcessID=906 : Average_Running_Time=.03086186711409395973
+ProcessID=1214 : Parent_ProcessID=906 : Average_Running_Time=.19010236842105263157
+ProcessID=1223 : Parent_ProcessID=906 : Average_Running_Time=.45407023864511162432
+ProcessID=1235 : Parent_ProcessID=906 : Average_Running_Time=.22377965625000000000
+ProcessID=1241 : Parent_ProcessID=906 : Average_Running_Time=.48900250000000000000
+ProcessID=1246 : Parent_ProcessID=906 : Average_Running_Time=.22542197736625514403
+ProcessID=1276 : Parent_ProcessID=906 : Average_Running_Time=.56189529779480988403
+ProcessID=1287 : Parent_ProcessID=1148 : Average_Running_Time=.11433368996188055908
+Average_Sleeping_Children_of_ParentID=906 is 26742756312169040986.00
+ProcessID=1312 : Parent_ProcessID=906 : Average_Running_Time=.30081958205128205128
+Average_Sleeping_Children_of_ParentID=1148 is 11433368996188055908.00
+ProcessID=1318 : Parent_ProcessID=906 : Average_Running_Time=.69355399224806201550
+ProcessID=1328 : Parent_ProcessID=906 : Average_Running_Time=.30602913493975903614
+ProcessID=1344 : Parent_ProcessID=906 : Average_Running_Time=.23310020247933884297
+ProcessID=1361 : Parent_ProcessID=906 : Average_Running_Time=.77010094209834834834
+ProcessID=1363 : Parent_ProcessID=906 : Average_Running_Time=.40365033928571428571
+ProcessID=1369 : Parent_ProcessID=930 : Average_Running_Time=.12882293571428571428
+Average_Sleeping_Children_of_ParentID=906 is 45120903218375076332.33
+ProcessID=1380 : Parent_ProcessID=906 : Average_Running_Time=.33422391111111111111
+Average_Sleeping_Children_of_ParentID=930 is 12882293571428571428.00
+ProcessID=1381 : Parent_ProcessID=906 : Average_Running_Time=.61246822820236813778
+ProcessID=1382 : Parent_ProcessID=906 : Average_Running_Time=.37856327272727272727
+ProcessID=1386 : Parent_ProcessID=906 : Average_Running_Time=1.62997814285714285714
+ProcessID=1387 : Parent_ProcessID=906 : Average_Running_Time=.80159196119402985074
+ProcessID=1390 : Parent_ProcessID=906 : Average_Running_Time=.53884859554730983302
+ProcessID=1392 : Parent_ProcessID=906 : Average_Running_Time=.71280842875647668393
+ProcessID=1393 : Parent_ProcessID=906 : Average_Running_Time=.25327445161290322580
+ProcessID=1395 : Parent_ProcessID=906 : Average_Running_Time=.06898844075829383886
+ProcessID=1399 : Parent_ProcessID=906 : Average_Running_Time=.23455382758620689655
+ProcessID=1403 : Parent_ProcessID=906 : Average_Running_Time=.14260155729166666666
+ProcessID=1409 : Parent_ProcessID=906 : Average_Running_Time=.21819756122448979591
+ProcessID=1411 : Parent_ProcessID=906 : Average_Running_Time=.20473050549450549450
+ProcessID=1414 : Parent_ProcessID=906 : Average_Running_Time=.43504404255319148936
+ProcessID=1415 : Parent_ProcessID=906 : Average_Running_Time=.91091812816188870151
+ProcessID=1419 : Parent_ProcessID=906 : Average_Running_Time=.21895642622950819672
+ProcessID=1422 : Parent_ProcessID=1246 : Average_Running_Time=.64981151626898047722
+Average_Sleeping_Children_of_ParentID=906 is 132525541204075197617 33565575432922584566.87
+ProcessID=1441 : Parent_ProcessID=906 : Average_Running_Time=.88742879293739967897
+Average_Sleeping_Children_of_ParentID=1246 is 64981151626898047722.00
+ProcessID=1450 : Parent_ProcessID=1246 : Average_Running_Time=.26872105263157894736
+Average_Sleeping_Children_of_ParentID=906 is 88742879293739967897.00
+ProcessID=1456 : Parent_ProcessID=906 : Average_Running_Time=.31446054117647058823
+Average_Sleeping_Children_of_ParentID=1246 is 26872105263157894736.00
+ProcessID=1509 : Parent_ProcessID=1 : Average_Running_Time=.31797075796178343949
+Average_Sleeping_Children_of_ParentID=906 is 31446054117647058823.00
+ProcessID=1640 : Parent_ProcessID=906 : Average_Running_Time=.49944113633164723993
+Average_Sleeping_Children_of_ParentID=1 is 31797075796178343949.00
+ProcessID=1666 : Parent_ProcessID=1640 : Average_Running_Time=.42015114871794871794
+Average_Sleeping_Children_of_ParentID=906 is 49944113633164723993.00
+ProcessID=1710 : Parent_ProcessID=906 : Average_Running_Time=1.03436030303030303030
+Average_Sleeping_Children_of_ParentID=1640 is 42015114871794871794.00
+ProcessID=1723 : Parent_ProcessID=1246 : Average_Running_Time=.87187782683307332293
+Average_Sleeping_Children_of_ParentID=906 is 1 3436030303030303030.00
+ProcessID=1902 : Parent_ProcessID=2 : Average_Running_Time=.15981381684706891008
+Average_Sleeping_Children_of_ParentID=1246 is 87187782683307332293.00
+ProcessID=1907 : Parent_ProcessID=2 : Average_Running_Time=.04851416940581542351
+ProcessID=2055 : Parent_ProcessID=2 : Average_Running_Time=.01122000000000000000
+ProcessID=2208 : Parent_ProcessID=2 : Average_Running_Time=.03751634158012624720
+ProcessID=4323 : Parent_ProcessID=2 : Average_Running_Time=.14243645687331536388
+ProcessID=4324 : Parent_ProcessID=2 : Average_Running_Time=.06594361212814645308
+ProcessID=4334 : Parent_ProcessID=2 : Average_Running_Time=.05158009640102827763
+ProcessID=4438 : Parent_ProcessID=906 : Average_Running_Time=4.06459873333333333333
+Average_Sleeping_Children_of_ParentID=2 is 7386064189078581076.85
+ProcessID=4447 : Parent_ProcessID=1666 : Average_Running_Time=.08977175358606557377
+Average_Sleeping_Children_of_ParentID=906 is 4 6459873333333333333.00
+Average_Sleeping_Children_of_ParentID=1666 is 8977175358606557377.00

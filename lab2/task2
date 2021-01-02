@@ -1,0 +1,5 @@
+  
+#! /bin/bash
+
+
+ps -e -o pid,command | grep -E "^\s+[0-9]+\s+/sbin/" |awk '{print $1}' 

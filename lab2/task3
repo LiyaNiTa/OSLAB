@@ -1,0 +1,4 @@
+#! /bin/bash
+
+ps  -eo pid,ppid,stime | tail -n +2 | sed /$$/d |  tail -n 1 | awk '{print $1}'
+#echo $$

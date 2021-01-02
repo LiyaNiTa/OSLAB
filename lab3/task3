@@ -1,0 +1,3 @@
+#! /bin/bash
+d=$(date +"%u" )
+echo "5 * * * $d  task1" | crontab

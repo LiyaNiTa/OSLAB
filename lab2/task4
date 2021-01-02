@@ -1,0 +1,20 @@
+#! /bin/bash
+
+mpath='/proc'
+pred_ppid=-1
+for pid in $(ps -A -o pid | tail -n +2)
+do
+	path_status="$mpath/$pid/status"
+	path_sched="$mpath/$pid/sched"
+	if [[ -f $path_status && -f $path_sched ]]
+	then
+		ppid=$(grep "PPid:" $path_status | awk '{print $2}')
+       		sum_exec_runtime=$(grep "se.sum_exec_runtime" $path_sched | awk '{print $3}')
+		nr_switches=$(grep "nr_switches" $path_sched | awk '{print $3}')
+		art="$(bc -l <<< "$sum_exec_runtime / $nr_switches")"
+		echo "ProcessID=$pid : Parent_ProcessID=$ppid : Average_Running_Time=$art" >> ans4
+	fi
+done
+
+
+

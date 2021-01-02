@@ -1,0 +1,9 @@
+#! /bin/bash
+
+read buf
+ans=""
+while ([ "$buf" != "q" ]) do
+ans=$ans$buf
+read buf
+done
+echo "$ans"

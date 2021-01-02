@@ -1,0 +1,2 @@
+[ 4797.101226] Out of memory: Killed process 11064 (mem) total-vm:1567144kB, anon-rss:1549300kB, file-rss:0kB, shmem-rss:0kB, UID:1000 pgtables:3092kB oom_score_adj:0
+[ 4797.184773] oom_reaper: reaped process 11064 (mem), now anon-rss:0kB, file-rss:0kB, shmem-rss:0kB

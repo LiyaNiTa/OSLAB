@@ -1,0 +1,8 @@
+#!/bin/bash
+counter=0
+while [[ $counter -lt $2 ]]
+do
+./newmem $1 &
+sleep 1
+counter=$((counter+1))
+done

@@ -1,0 +1,30 @@
+#!/bin/bash 
+
+echo $$ > .pid
+
+num=1
+
+usr1() 
+{ 
+     num=$(($num + 2))
+     echo "result " $num  
+} 
+trap 'usr1' SIGUSR1
+usr2()
+{
+     num=$(($num * 2))
+     echo "result " $num
+}
+trap 'usr2' SIGUSR2
+term()
+{
+     echo "Goodbye!"
+     exit 0
+}
+trap 'term' SIGTERM
+
+
+while true; 
+do
+	buf=1+1
+done

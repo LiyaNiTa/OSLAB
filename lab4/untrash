@@ -1,0 +1,40 @@
+#! /bin/bash
+
+[ $# -ne 1 ] && {
+	echo "invalid count parametrs"
+	exit 1
+}
+regexp="^[^[:space:]]*/$1"
+grep -w $regexp   trash.log | while read -r line ; do
+	while true; do
+		read -r -p "Do you want to restore $line? Y\N "  answer < /dev/tty
+		if [[ $answer = "Y" || $answer = "N" ]]
+		then
+			break
+		fi
+	done
+	if [ $answer = "Y" ]
+	then 
+		to_untrash=$(echo $line | cut -d " " -f 1)
+    		to_delete=$(echo $line | cut -d " " -f 3)
+		where=$(dirname $to_untrash)
+		echo $where
+		if [[ ! -d $where ]]; then
+        		echo "No original directory. Restoring at home"
+        		where = "~/oslab/lab4"
+        	fi
+		nameFile=$1
+		while [[ -f "$where/$nameFile"  ]]; do
+			read -r -p "file with this  name exists. please enter a new name"  nameFile < /dev/tty
+		done
+		ln "$to_delete" "$where/$nameFile" &&
+	        rm "$to_delete" &&
+       		{
+			 echo "$(grep -v "$to_delete" trash.log)" > trash.log
+      		     #	sed -i "\%$to_delete%d" trash.log
+       			echo "Restored $to_untrash"
+        	}
+	fi
+
+done
+

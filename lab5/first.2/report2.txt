@@ -1,0 +1,135 @@
+System memory parameter values:
+1987,6 -total 935,2 -free 811,5 -used 240,8 -buff/cashe
+448,5 -total 2,3 -free 446,2 -used 1013,3 -buff/cashe
+6149
+2042
+1378
+1024
+6172
+
+System memory parameter values:
+1987,6 -total 781,4 -free 965,3 -used 240,9 -buff/cashe
+448,5 -total 2,3 -free 446,2 -used 860,0 -buff/cashe
+2042
+6184
+1
+2
+3
+
+System memory parameter values:
+1987,6 -total 596,1 -free 1144,8 -used 246,8 -buff/cashe
+448,5 -total 2,8 -free 445,7 -used 676,6 -buff/cashe
+6149
+2042
+6221
+1
+2
+
+System memory parameter values:
+1987,6 -total 481,1 -free 1262,9 -used 243,5 -buff/cashe
+448,5 -total 2,9 -free 445,6 -used 560,8 -buff/cashe
+6149
+2042
+6240
+1
+2
+
+System memory parameter values:
+1987,6 -total 324,6 -free 1419,4 -used 243,6 -buff/cashe
+448,5 -total 2,9 -free 445,6 -used 404,3 -buff/cashe
+6149
+2042
+6254
+1
+2
+
+System memory parameter values:
+1987,6 -total 171,5 -free 1572,3 -used 243,7 -buff/cashe
+448,5 -total 2,9 -free 445,6 -used 250,9 -buff/cashe
+2042
+6149
+1024
+1
+2
+
+System memory parameter values:
+1987,6 -total 71,3 -free 1731,6 -used 184,6 -buff/cashe
+448,5 -total 0,0 -free 448,5 -used 92,5 -buff/cashe
+6149
+2042
+1
+2
+3
+
+System memory parameter values:
+1987,6 -total 545,4 -free 1292,8 -used 149,3 -buff/cashe
+448,5 -total 0,3 -free 448,2 -used 536,0 -buff/cashe
+2042
+619
+620
+6321
+1
+
+System memory parameter values:
+1987,6 -total 479,8 -free 1351,6 -used 156,2 -buff/cashe
+448,5 -total 0,5 -free 448,0 -used 474,1 -buff/cashe
+2042
+1378
+6348
+1
+2
+
+System memory parameter values:
+1987,6 -total 388,0 -free 1428,2 -used 171,3 -buff/cashe
+448,5 -total 0,5 -free 448,0 -used 395,0 -buff/cashe
+2042
+6355
+1378
+1
+2
+
+System memory parameter values:
+1987,6 -total 237,4 -free 1533,6 -used 216,6 -buff/cashe
+448,5 -total 0,5 -free 448,0 -used 286,2 -buff/cashe
+2042
+6196
+1024
+1378
+5477
+
+System memory parameter values:
+1987,6 -total 133,7 -free 1614,9 -used 239,0 -buff/cashe
+448,5 -total 0,5 -free 448,0 -used 203,5 -buff/cashe
+2042
+6393
+1197
+1378
+1
+
+System memory parameter values:
+1987,6 -total 69,7 -free 1686,6 -used 231,3 -buff/cashe
+448,5 -total 0,0 -free 448,5 -used 131,4 -buff/cashe
+2042
+1024
+1378
+6411
+1
+
+System memory parameter values:
+1987,6 -total 84,6 -free 1768,1 -used 134,8 -buff/cashe
+448,5 -total 0,0 -free 448,5 -used 66,6 -buff/cashe
+2042
+6431
+1
+2
+3
+
+System memory parameter values:
+1987,6 -total 66,5 -free 1854,1 -used 67,0 -buff/cashe
+448,5 -total 0,0 -free 448,5 -used 17,4 -buff/cashe
+90
+2042
+1378
+6457
+1024
+

@@ -1,0 +1,5 @@
+#! /bin/bash
+
+pid=1
+var="/proc/$pid"
+echo "$var"

@@ -1,0 +1,38 @@
+#! /bin/bash
+
+fileName="$HOME/oslab/lab4/$1"
+hiddenFile=$HOME/oslab/lab4/.trash
+logFile=$HOME/oslab/lab4/trash.log
+countFile=$HOME/oslab/lab4/count
+
+if [[ $# -ne 1 ]]; then
+	echo "invalid count  parametr"
+	exit 1
+fi 
+
+if  [[ ! -f $fileName ]]; then
+
+	echo "invalid file name"
+	exit 1;
+fi
+
+if  [[ ! -d $hiddenFile ]]; then
+	mkdir $hiddenFile
+fi
+
+if  [[ ! -f $countFile ]]; then
+	echo "0"  > $countFile
+fi
+
+count="$(cat $countFile)"
+hardLink=$hiddenFile/$count
+
+ln $fileName  $hardLink
+
+count=$(($count+1))
+
+echo $count > $countFile
+
+rm $fileName
+
+echo "$fileName >  $hardLink" >> $logFile
