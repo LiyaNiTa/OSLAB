@@ -1,0 +1,4 @@
+dir.txt
+script1.cmd
+systeminfo.txt
+wmic_diskdrive_get_model.txt

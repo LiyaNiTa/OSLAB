@@ -1,0 +1,6 @@
+net start > C:\lab\net_1.txt
+net stop dnscache
+timeout /t 5
+net start > C:\lab\net_2.txt
+fc C:\lab\net_1.txt C:\lab\net_2.txt > net_res.txt
+net start dnscache
